@@ -77,7 +77,7 @@ AudioFileSourceBuffer *buff;
 String speech_text = "";
 String speech_text_buffer = "";
 DynamicJsonDocument chat_doc(1024*10);
-String json_ChatString = "{\"model\": \"gpt-3.5-turbo-0613\",\"messages\": [{\"role\": \"user\", \"content\": \"""\"}]}";
+String json_ChatString = "{\"model\": \"gpt-3.5-turbo-1106\",\"messages\": [{\"role\": \"user\", \"content\": \"""\"}]}";
 // String json_ChatString =
 // "{\"model\": \"gpt-3.5-turbo\",\
 //  \"messages\": [\
